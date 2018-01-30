@@ -5,3 +5,5 @@ def reverse_each_word(word)
   binding.pry
   puts "All done"
 end
+
+reverse_each_word("penis")
