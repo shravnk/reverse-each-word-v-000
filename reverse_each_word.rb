@@ -1,11 +1,17 @@
 require 'pry'
 
+# def reverse_each_word(phrase)
+#   words = phrase.split(" ")
+#   reversed = ""
+#   words.each do |word|
+#     reversed << word.reverse + " "
+#   end
+#   reversed.chop
+# end
+
 def reverse_each_word(phrase)
   words = phrase.split(" ")
-  reversed = ""
-  words.each do |word|
-    reversed << word.reverse + " "
-  end
+  reversed = words.collect{|word| word.reverse}
   reversed.chop
 end
 
