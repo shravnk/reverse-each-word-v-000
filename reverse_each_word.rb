@@ -1,9 +1,12 @@
 require 'pry'
 
 def reverse_each_word(word)
-  test = word.split("")
-  binding.pry
-  puts "All done"
+  word_a = word.split("")
+  drow = ""
+  word_a.reverse.each do |letter|
+    drow << letter
+  end
+  puts drow
 end
 
 reverse_each_word("penis")
