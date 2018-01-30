@@ -9,4 +9,5 @@ def reverse_each_word(word)
   puts drow
 end
 
-reverse_each_word("penis")
+test = "Hello, how are you?"
+reverse_each_word(test)
