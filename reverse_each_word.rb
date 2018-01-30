@@ -8,5 +8,3 @@ def reverse_each_word(word)
   end
   drow
 end
-
-
