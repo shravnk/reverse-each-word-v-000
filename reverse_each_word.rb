@@ -6,7 +6,7 @@ def reverse_each_word(phrase)
   words.each do |word|
     reversed << word.reverse + " "
   end
-  puts reversed
+  reversed
 end
 
-reverse_each_word("I am a man")
+# reverse_each_word("I am a man")
