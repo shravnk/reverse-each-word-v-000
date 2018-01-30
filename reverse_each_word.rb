@@ -1,10 +1,10 @@
 require 'pry'
 
-def reverse_each_word(word)
-  word_a = word.split("")
-  drow = ""
-  word_a.reverse.each do |letter|
-    drow << letter
+def reverse_each_word(phrase)
+  words = phrase.split(" ")
+  reversed = ""
+  words.each do |word|
+    reversed << word.reverse
   end
-  drow
+  
 end
